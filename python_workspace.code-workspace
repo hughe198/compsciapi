@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"sqltools.useNodeRuntime": true,
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "SQLite",
+				"name": "SQLite",
+				"group": "SQLite",
+				"database": "${workspaceFolder:main_api}/my_database.db"
+			}
+		]
+	}
+}
